@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 17, 2017, 10:09:45 AM
+    Author     : Dragon ANX
+*/
+*
+{
+    font-family:"Oswald", sans-serif;
+    border: 0px solid aqua;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    list-style:none;
+    text-decoration:none;
+}
+article, aside, footer, header, hgroup, main, nav, section 
+{
+    display: block;
+}

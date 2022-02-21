@@ -1,0 +1,1062 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 17, 2017, 10:09:07 AM
+    Author     : Dragon ANX
+*/
+body
+{
+    overflow-x: hidden;
+}
+#container #inicio
+{
+    background-image: url(../imgs/Fachada.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#container #inicio #modalCenter #modalPromo #sairModalPromo 
+{
+  display: block;
+  background: #D2AE37;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+}
+#container #inicio #modalCenter
+{
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#container #inicio #modalCenter #modalPromo
+{  
+    border-radius: 10px; 
+    position: relative;
+    width: 100%;
+    max-width: 820px;
+    height: 100%;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0,0.87);
+}
+#container #inicio #modalCenter .teste
+{
+    width: 100px;
+    height: 100px;
+}
+#container #inicio #modalCenter #modalPromo #divForm
+{
+    width: 100%;
+    max-width: 900px;
+}
+#container #inicio #modalCenter #modalPromo #divForm h3
+{
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+    color: #C2A02F;
+}
+#container #inicio #modalCenter #modalPromo #divForm p
+{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+#container #inicio #modalCenter #modalPromo #divForm #register input
+{
+    font-size: 20px;
+    padding: 10px 25px;
+    margin-right: 10px;
+    border-bottom: #D2AE37 solid 2px;
+    border-top: #D2AE37 solid 2px;
+    border-left: #AB8B20 solid 4px;
+    border-right: #D2AE37 solid 2px;
+    border-radius: 5px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+{
+    #container #inicio #modalCenter #modalPromo #divForm #register input
+    {
+        width: 100%;
+        max-width: 190px;
+        
+    }
+    #container #inicio #modalCenter #modalPromo
+    {  
+        width: 100%;
+        max-width: 850px;
+        height: 100%;
+        max-height: 260px;
+    }
+    #container #apresentacao #apreParte1 #boxApre1 #botaoApre
+    {
+        padding: 23px 21px;
+        height: 100%;
+        max-height: 40px;
+        background: #DFD99D;
+        margin: auto;
+        border: 3px solid #AB8B20;
+    }
+    #container #apresentacao #apreParte1 #boxApre1 #botaoApre a
+    {
+        padding: 23px 21px;
+        font-size: 30px; 
+        color: black;
+    }
+}
+#container #inicio #modalCenter #modalPromo #divForm #register #centBt button
+{
+    border: 1px solid black;
+    padding: 14px 21px;    
+    background: #FFECAC;
+    color: #AB8B20;
+    margin-top: 15px;
+    font-size: 25px;
+    border: 3px solid #AB8B20;
+    cursor: pointer;
+}
+video 
+{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+#container #inicio #divNav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(167, 134, 25,0.82);
+
+}
+#container #inicio #divNav #navbar
+{
+    text-align: center;
+    height: 72px;
+    width: 100%;
+}
+#container #inicio #divNav #navbar #ulNav a
+{
+    color: #ffffff;
+    font-size: 30px;
+    height: 59%;
+    padding: 15px 14px;
+}
+#container #inicio #divNav #navbar #ulNav #logoB4
+{
+    height: 71px;
+    width: 325px;
+    display: inline-block;
+    vertical-align: middle;
+	margin-top:-12px;
+}
+#container #inicio #divNav #ulNav .fixImg
+{
+    margin-top: -7px;
+}
+#container #inicio #divNav #ulNav .clear
+{
+    padding: 0px;
+}
+.clearFixCli
+{
+    width: 100%;
+    border: 1px solid transparent;
+}
+#container #inicio #divNav #navbar #ulNav li
+{
+    display: inline-block;
+    height: 72px;
+}
+#container #inicio #divNav #navbar #ulNav li #linkAgendar
+{
+    border-left: 1px solid #FFC400;
+    border-right: 1px solid #FFC400;
+    border-bottom: 1px solid #FFC400;
+    height: 57.5%;
+    background: rgba(175, 134, 0,1);
+}
+#container #inicio #divNav #navbar #ulNav .hovertop
+{
+    display: inline-block;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+#container #inicio #divNav #navbar .hovertop:hover
+{
+    transform: perspective(1) translateZ(0);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+#container #inicio #divNav #navbar .hovertop:before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(255, 196, 0,0.50);
+    transform: scaleY(0);
+    transform-origin: 50% 100%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+#container #inicio #divNav #navbar .hovertop:hover, .hovertop:focus, .hovertop:active 
+{
+  color: white;
+}
+#container #inicio #divNav #navbar .hovertop:hover:before, .hovertop:focus:before, .hovertop:active:before 
+{
+  transform: scaleY(1);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+#container #depoCliente
+{
+    background-image: url(../imgs/Cadeirafundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+}
+#container #depoCliente #depoCover
+{
+    background-color: rgba(154, 119, 2,0.60);
+    width: 100%;
+    height: 100%;
+}
+#container #depoCliente #depoCover h1
+{
+    font-size: 60px;
+    color: #FFECAC;
+    text-shadow: 0px 2px 5px #000;   
+}
+#container #depoCliente #depoCover #tituloCliente
+{
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+#container #depoCliente #depoCover #depoFaixa
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,0.70);
+    width: 100%;
+    height: 100%;
+    max-height: 318px;
+    flex-grow: 1;
+    margin-top: 15px;
+    margin-bottom: 156px;   
+}
+#container #depoCliente #depoCover #depoFaixa #retratoCli
+{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+#container #depoCliente #depoCover #depoFaixa #retratoCli img
+{
+    max-width:100%;
+    max-height:100%;
+}
+#container #depoCliente #depoCover #depoFaixa #depoText
+{
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    height: 120px;
+    max-height: 120px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#container #depoCliente #depoCover #depoFaixa #depoText span
+{
+    color:#DFD99D;
+    font-family: 'Merienda', cursive;
+    font-size: 25px;
+}
+#container .fullWidth
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#container .boxCenter
+{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    max-width: 1200px !important;
+    justify-content: center;
+    align-items: center;
+}
+#container .boxCenterCont
+{
+    max-width: 1200px;
+}
+#container .boxCenterRng
+{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center
+}
+#container .noWrap
+{
+    flex-wrap: nowrap;
+}
+#container #placaVintage
+{
+   padding-top: 7px;
+   padding-bottom: 7px;
+   background-color: #2e2e2e;
+}
+.fill
+{
+    display: inline-block;
+}
+#container #apresentacao
+{
+    /*border: 1px solid red;*/
+}
+#container #apresentacao #apreParte1 img
+{
+    width: 444px;
+    height: 555px;
+    display: inline-block;
+}
+#container #apresentacao #apreParte1
+{
+    display: flex;
+    width: 100%;
+}
+#container #apresentacao #apreParte1 #boxApre1
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 756px;
+    flex-grow: 1;
+}
+#container #apresentacao #apreParte1 #boxApre1 p
+{
+    font-size: 25px;
+    text-align: left;
+    display: flex;
+    justify-content: center;align-items: center;
+    width: 100%;
+}
+#container #apresentacao #apreParte1 #boxApre1 #botaoApre
+{
+    border: 1px solid black;
+    padding: 23px 21px;    
+    background: #DFD99D;
+    margin: auto;
+    border: 3px solid #AB8B20;
+}
+#container #apresentacao #apreParte1 #boxApre1 #botaoApre a
+{
+    padding: 23px 21px;
+    font-size: 30px; 
+    color: black;
+}
+#container #apresentacao #slideVisaoInterna
+{
+    margin-top: 35px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 90px;
+    width: 100%;
+}
+#container #apresentacao #modalInterno #sairModal 
+{
+  background: #D2AE37;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+#container #apresentacao #modalInterno
+{
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0,0.87);
+}
+#container #apresentacao #modalInterno img
+{
+   width: auto;
+   height: 95%;
+}
+#container #apresentacao #slideVisaoInterna img
+{
+    cursor: pointer;
+    max-width: 264px;
+    max-height: 264px;
+}
+#container #nossaHist #histBox #histBoxText
+{
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 10px;  
+}
+#container #nossaHist #histBox #histBoxText h1
+{
+    color: #E5D962;
+    font-size: 60px;
+}
+#container #nossaHist #histBox p
+{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+#container #nossaHist
+{
+    background-color: #2e2e2e;
+    height: 100%;
+    max-height: 640px;
+}
+#container #nossaHist #histBox img
+{
+    display: flex;
+    height: 100%;
+    max-height: 640px;
+}
+#container #servicos #servCover #servInerBox #servicosIntro h1
+{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 24px;   
+}
+#container #servicos
+{
+    background-image: url("../imgs/Tacachopebar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+}
+#container #servicos #servCover
+{
+    background-color: rgba(0, 0, 0,0.87);
+    width: 100%;
+    color: white;
+    height: 100%;
+    
+}
+#container #servicos #servCover #servInerBox #servicosIntro p
+{
+    text-align: center;
+    margin-top: 15px;
+    max-width: 960px;
+    font-size: 22px;
+}
+#container #servicos #servCover #servInerBox 
+{
+    
+}
+#container #servicos #servCover #servInerBox #servBox .servBoxDesc
+{
+    height: 416px;
+    width: 341px;
+    margin-bottom: 30px;
+}
+#container #servicos #servCover #servInerBox #servBox .servMiniTitle
+{
+    color: #AB8B20;
+    background-color: rgba(0, 0, 0,0.9);;
+    font-size: 20px;
+    text-align: center;
+    border-top: 1px dashed #AB8B20;
+    border-bottom: 5px solid #AB8B20;
+}
+#container #servicos #servCover #servInerBox #servBox h2
+{
+    margin-bottom: 5px;
+    padding-top: 3px;
+}
+#container #servicos #servCover #servInerBox #servBox .servBoxDesc ul
+{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+    opacity: 0;
+}
+#container #servicos #servCover #servInerBox #servBox #serv01:hover > .servCover
+{
+    background-color: rgba(0, 0, 0,0.70);
+    height: 86.9%;
+    border: 0px solid red;
+}
+#container #servicos #servCover #servInerBox #servBox #serv01:hover > .servCover ul
+{
+    transition:opacity 0.5s ease-in;
+    opacity: 1;
+}
+#container #servicos #servCover #servInerBox #servBox #serv02:hover > .servCover
+{
+    background-color: rgba(0, 0, 0,0.70);
+    height: 86.9%;
+    border: 0px solid red;
+}
+#container #servicos #servCover #servInerBox #servBox #serv02:hover > .servCover ul
+{
+    transition:opacity 0.5s ease-in;
+    opacity: 1;
+}
+#container #servicos #servCover #servInerBox #servBox #serv03:hover > .servCover
+{
+    background-color: rgba(0, 0, 0,0.70);
+    height: 86.9%;
+    border: 0px solid red;
+}
+#container #servicos #servCover #servInerBox #servBox #serv03:hover > .servCover ul
+{
+    transition:opacity 0.5s ease-in;
+    opacity: 1;
+}
+#container #servicos #servCover #servInerBox #servBox #serv04:hover > .servCover
+{
+    background-color: rgba(0, 0, 0,0.70);
+    height: 86.9%;
+    border: 0px solid red;
+}
+#container #servicos #servCover #servInerBox #servBox #serv04:hover > .servCover ul
+{
+    transition:opacity 0.5s ease-in;
+    opacity: 1;
+}
+#container #servicos #servCover #servInerBox #servBox
+{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-around;
+    max-width: 800px !important;
+}
+#container #servicos #servCover #servInerBox #servBox .servBoxDesc span
+{
+    color: #ACA01E;
+}
+#container #servicos #servCover #servInerBox #servBox #serv01
+{ 
+    background-image: url("../imgs/barber-(1).png");
+    background-repeat: no-repeat;
+    background-size: 101% 101%;
+    background-position: center center; 
+}
+#container #servicos #servCover #servInerBox #servBox #serv01:hover
+{
+    transition:background-image 0.5s ease-out;
+    background-image: url("../imgs/Cadeirafundo.jpg");    
+    background-size: cover;
+}
+#container #servicos #servCover #servInerBox #servBox #serv02
+{
+    background-image: url("../imgs/beerr.png");
+    background-repeat: no-repeat;
+    background-size: 101% 101%; 
+    background-position: center center; 
+}
+#container #servicos #servCover #servInerBox #servBox #serv02:hover
+{
+    transition:background-image 0.5s ease-out;
+    background-image: url("../imgs/Tacachopebar.jpg");
+    background-size: cover;
+}
+#container #servicos #servCover #servInerBox #servBox #serv03
+{
+    background-image: url("../imgs/beespoke.png");
+    background-repeat: no-repeat;
+    background-size: 101% 101%; 
+    background-position: center center;
+}
+#container #servicos #servCover #servInerBox #servBox #serv03:hover
+{
+    transition:background-image 0.5s ease-out;
+    background-image: url("../imgs/Ternos.jpg");
+    background-size: cover;
+}
+#container #servicos #servCover #servInerBox #servBox #serv04
+{
+    background-image: url("../imgs/bodyart.png");
+    background-repeat: no-repeat;
+    background-size: 101% 101%; 
+    background-position: center center;
+}
+#container #servicos #servCover #servInerBox #servBox #serv04:hover
+{
+    transition:background-image 0.5s ease-out;
+    background-image: url("../imgs/Cadeirasfundo.jpg");
+    background-size: cover;
+}
+#container #sociaisFeed
+{
+    background-image: url('../imgs/Bar.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center; 
+    width: 100%; 
+}
+#container #sociaisFeed #socCover
+{
+    background-color: rgba(0, 0, 0,0.87);
+    width: 100%;
+    height: 100%;
+}
+#container #sociaisFeed #socCover #boxTitulo
+{
+    width: 100%;
+    background-color: #191919;
+    text-align: center;
+}
+#container #sociaisFeed #socCover #boxTitulo h1
+{
+    font-size: 60px;
+    color: #AB8B20;
+    margin: 5px;
+}
+#container #sociaisFeed #socCover #socInerBox #pSoc
+{
+    color: white;
+    margin-top: 15px;
+    font-size: 25px;
+}
+#container #sociaisFeed #socCover #socInerBox #feedsBox *
+{
+    border: 0px;
+}
+#container #sociaisFeed #socCover #socInerBox #feedsBox
+{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+#container #sociaisFeed #socCover #socInerBox .feedBoxDesc
+{
+    background-color: white;
+    border:10px #FFC400 solid;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+#container #sociaisFeed #socCover #socInerBox .InstaFix
+{
+    padding-right: 2px;
+    width:100%;
+    max-width: 557px;
+}
+#container #horarios
+{
+    background-image: url('../imgs/Sofaamarelo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+#container #horarios #horaCover
+{
+    background-color: rgba(0, 0, 0,0.70);
+    width: 100%;
+    height: 100%;
+}
+#container #horarios #horaCover #inerCoverHora
+{
+    background-color: rgba(255, 196, 0,0.28);
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#container #horarios #horaCover #tituloHora h1
+{
+    color: white;
+    font-size: 60px;
+    color: #FFECAC;
+    text-shadow: 0px 2px 5px #AB8B20; 
+    margin: 12px;
+}
+#container #horarios #horaCover #botaoHora
+{
+    background: #FFDD00;
+    border: 3px solid #398787;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#container #horarios #horaCover #botaoHora a
+{
+    display:inline-block;
+    padding: 13px 30px;
+    font-size: 30px; 
+    color: black;
+}
+#container #horarios #horaCover #inerCoverHora #horaFaixa
+{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+}
+#container #horarios #horaCover #inerCoverHora #horaFaixa .horaDia
+{
+    background: #398787;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#container #horarios #horaCover #inerCoverHora #horaFaixa .horaDia h3
+{
+    font-size: 26px;
+    color: #C2A02F;
+}
+#container #horarios #horaCover #inerCoverHora #horaFaixa .horaDia p
+{
+   color: white;
+   font-size: 18px;
+}
+.overlay {
+   background:transparent; 
+   position:relative; 
+   height:410px; /* your iframe height */
+   top:410px;  /* your iframe height */
+   margin-top:-410px;  /* your iframe height */
+}
+#container #contatos 
+{
+    background: #d1af3e;
+}
+#container #contatos #contBox
+{
+    display: flex; 
+    flex-grow: 1;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+}
+#container #contatos #contBox h1
+{
+    font-size: 60px;
+    color: white;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+#container #contatos #contBox p
+{
+    text-align: left;
+    color: white;
+    font-size: 19px;
+    width: 100%;
+}
+#container #contatos #contBox #sociaisLinks
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#container #contatos #contBox #sociaisLinks #sociaisLinksBox
+{
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 420px;
+}
+#container #contatos #contBox #sociaisLinks #sociaisLinksBox img
+{
+    height: 100px;
+    width: 100px;
+}
+#container #contatos #mapGoogleFrame
+{
+    height: 410px;
+    margin-top: 20px;
+    width: 100%;
+}
+#container #rodape
+{
+    background: #7E7E7E;
+    color: white;
+}
+#container #rodape #logoBoxRoda
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#container #rodape #rodapeInfo
+{
+    font-size: 21px;
+    text-align: center;
+}
+#container #rodape #sociaisLinksMinor
+{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+#container #rodape #sociaisLinksMinor #sociaisLinksBoxMinor
+{
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row;
+    justify-content: space-around;
+    max-width: 200px;
+}
+#container #rodape #sociaisLinksMinor #sociaisLinksBoxMinor img
+{
+    height: 50px;
+    width: 50px;
+}
+#container #rodape #myth
+{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 19px;
+}
+#container #rodape #myth p
+{
+    display: inline-block;
+}
+#container #rodape #myth .diferenciado
+{
+    color: #D2AE37;
+}
+#container ~ div
+{
+    display: none;
+}
+
+#container #loader
+{
+    z-index: 99999999;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    font-size: 26px;
+    color: #D2AE37;
+    font-weight: 900;
+}
+
+.container
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner
+{
+  position: relative;
+  padding: 10px 20px;
+  animation: loader 1s cubic-bezier(0.5, 0.1, 0.15, 1) alternate infinite;
+}
+
+@keyframes loader
+{
+  0%
+  {
+    letter-spacing: -1px;
+  }
+  100%
+  {
+    letter-spacing: 15px;
+  }
+}
+
+.banner::before
+{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: skewX(-15deg);
+  background-color: #7E7E7E;
+}
+
+.banner-left, .banner-right
+{
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+  bottom: -30%;
+  transform: skewX(-15deg);
+  background-color: #AB8B20;
+}
+
+.banner-left
+{
+  animation: sub-banner-left 1s cubic-bezier(0.5, 0.1, 0.15, 1) alternate infinite;
+}
+
+@keyframes sub-banner-left
+{
+  0%
+  {
+    right: 82%;
+  }
+  100%
+  {
+    right: 90%;
+  }
+}
+
+.banner-right
+{
+  animation: sub-banner-right 1s cubic-bezier(0.5, 0.1, 0.15, 1) alternate infinite;
+}
+
+@keyframes sub-banner-right
+{
+  0%
+  {
+    left: 82%;
+  }
+  100%
+  {
+    left: 90%;
+  }
+}
+
+.banner-left::before, .banner-right::before
+{
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -1px;
+  border: 22px solid;
+  border-color: transparent;
+}
+
+.banner-left::before
+{
+  left: -1px;
+  border-left-color: #FFC400;
+}
+
+.banner-right::before
+{
+  right: -1px;
+  border-right-color: #FFC400;
+}
+
+/*@supports (-moz-appearance:none) and (cursor:zoom-in) 
+{ 
+    #container #inicio #modalCenter #modalPromo
+    {  
+        width: 100%;
+        max-width: 870px;
+        height: 100%;
+        max-height: 260px;
+    }
+}
+
+@supports (-ms-ime-align:auto) 
+{
+    #container #inicio #modalCenter #modalPromo #divForm #register input
+    {
+        width: 100%;
+        max-width: 190px;
+        
+    }
+    #container #inicio #modalCenter #modalPromo
+    {  
+        width: 100%;
+        max-width: 850px;
+        height: 100%;
+        max-height: 260px;
+    }
+}*/
+
